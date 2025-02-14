@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial - Clínica do Paoli</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .menu {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .menu ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .menu ul li {
+            margin: 15px 0;
+        }
+
+        .menu ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .menu ul li a:hover {
+            color: #4CAF50;
+        }
+
+        .main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .content {
+            padding: 20px;
+            background-color: white;
+            flex: 1;
+        }
+
+        .content h1, .content h2, .content h3, .content h4 {
+            color: #333;
+        }
+
+        .content fieldset {
+            border: 2px solid #4CAF50;
+            border-radius: 10px;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        .content fieldset h4 {
+            line-height: 1.6;
+            font-size: 18px;
+        }
+
+        .content fieldset mark {
+            background-color: #ff0303;
+            color: white;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .footer p {
+            margin: 5px 0;
+        }
+
+        @media (max-width: 768px) {
+            .menu ul li a {
+                font-size: 16px;
+            }
+
+            .header h1 {
+                font-size: 24px;
+            }
+
+            .content {
+                padding: 10px;
+            }
+
+            .content fieldset h4 {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <h2>MENU</h2>
+            <ul>
+                <li><a href="Pagina-inicial.html">PÁGINA PRINCIPAL</a></li>
+                <li><a href="sobre.html">SOBRE A CLÍNICA</a></li>
+                <li><a href="Horario-Atendimento.html">HORÁRIOS DE ATENDIMENTO</a></li>
+                <li><a href="Contatos.html">CONTATOS</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <h1>CLÍNICA DO PAOLI</h1>
+                <img src="headInicio.jpeg" alt="Imagem da Clínica">
+            </div>
+
+            <div class="content">
+                <fieldset>
+                    <h4>
+                        <p>Bem-vindo à <strong><i><mark>CLÍNICA DO PAOLI</mark></i></strong>, onde sua saúde e bem-estar são nossa prioridade!</p>
+                        <p>Nossa clínica médica oferece atendimento humanizado e de qualidade, com uma equipe de profissionais altamente qualificados e especializados em diversas áreas da medicina, como clínica geral, pediatria, ginecologia, cardiologia, dermatologia e muito mais.</p>
+                        <p>Com estrutura moderna e equipamentos atualizados, proporcionamos diagnósticos precisos, tratamentos eficazes e acompanhamento personalizado para cada paciente. Oferecemos serviços como consultas, exames básicos, vacinação, pequenos procedimentos e orientações para promover uma vida mais saudável.</p>
+                        <p>Na <strong><i><mark>CLÍNICA DO PAOLI</mark></i></strong>, você encontra cuidado, conforto e comodidade em um só lugar. Agende sua consulta e cuide da sua saúde com quem entende do assunto!</p>
+                    </h4>
+                </fieldset>
+            </div>
+
+            <div class="footer">
+                <h3>CONTATOS</h3>
+                <p>Telefone: (11) 1234-5678</p>
+                <p>Email: contato@clinicasaudeintegral.com.br</p>
+                <p>Endereço: Rua das Flores, 123, Centro, São Paulo - SP</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
